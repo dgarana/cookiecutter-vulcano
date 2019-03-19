@@ -12,7 +12,7 @@ setuptools.setup(
     setup_requires=('versiontools'),
     author='{{cookiecutter.author_name}}',
     author_email='{{cookiecutter.author_mail}}',
-    entry_points = {
+    entry_points={
         'console_scripts': ['{{cookiecutter.project_slug}}={{cookiecutter.project_slug}}.app:main'],
     },
     url='{{cookiecutter.project_url}}',
